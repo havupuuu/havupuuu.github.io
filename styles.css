@@ -4,6 +4,8 @@
 }
 
 body {
+    visibility: hidden;
+
     font-family: amiga;
 
     display: flex;
