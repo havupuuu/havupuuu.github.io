@@ -1,3 +1,3 @@
-window.addEventListener('load', function() {
-    document.querySelector('body').style.visibility = 'visible';
+document.fonts.ready.then(() => {
+    document.body.style.visibility = 'visible';
 });

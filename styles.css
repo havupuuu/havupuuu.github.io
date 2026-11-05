@@ -4,6 +4,7 @@
 }
 
 body {
+    visibility: hidden;
     font-family: amiga;
     background-color: rgb(43, 42, 48);
     color: rgb(163, 146, 180);
