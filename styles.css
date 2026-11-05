@@ -3,6 +3,16 @@
     src: url(amiga4ever.ttf);
 }
 
+h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+
 body {
     visibility: hidden;
     font-family: amiga;
