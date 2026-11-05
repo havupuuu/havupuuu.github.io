@@ -9,31 +9,34 @@ body {
     color: rgb(163, 146, 180);
     margin: 0;
     min-height: 100vh;
-}
-
-body, #links, #about {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 12px;
 }
 
-a {
+#links a {
     color: rgb(164, 103, 172);
     text-decoration: none;
 }
 
-a:hover {
+#links a:hover {
     color: rgb(209, 143, 218);
 }
 
 #about {
     margin-top: 50px;
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -41,6 +44,7 @@ a:hover {
     letter-spacing: 1px;
     color: rgb(190, 175, 205);
     font-size: smaller;
-    line-height: 1.5;
+    line-height: 1.2;
+    margin-top: 0;
     margin-bottom: 12px;
 }
