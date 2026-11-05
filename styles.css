@@ -4,24 +4,43 @@
 }
 
 body {
-    visibility: hidden;
-
     font-family: amiga;
+    background-color: rgb(43, 42, 48);
+    color: rgb(163, 146, 180);
+    margin: 0;
+    min-height: 100vh;
+}
 
+body, #links, #about {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
-    background-color: rgb(43, 42, 48);
-    color: rgb(163, 146, 180)
+#links {
+    gap: 12px;
 }
 
 a {
     color: rgb(164, 103, 172);
-    margin-top: 20px;
     text-decoration: none;
 }
+
 a:hover {
     color: rgb(209, 143, 218);
+}
+
+#about {
+    margin-top: 50px;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about p {
+    letter-spacing: 1px;
+    color: rgb(190, 175, 205);
+    font-size: smaller;
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
