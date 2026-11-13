@@ -1,6 +1,10 @@
 @font-face {
-    font-family: amiga;
+    font-family: amiga;   
     src: url(amiga4ever.ttf);
+}
+@font-face {
+    font-family: andale;
+    src: url(andale-mono.ttf);
 }
 
 
@@ -36,7 +40,7 @@ body {
 
 #about {
     margin-top: 50px;
-    max-width: 400px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,10 +48,10 @@ body {
 }
 
 #about p {
-    letter-spacing: 1px;
     color: rgb(190, 175, 205);
     font-size: smaller;
-    line-height: 1.2;
+    line-height: 1.5;
     margin-top: 0;
     margin-bottom: 12px;
+    font-family: andale;
 }
